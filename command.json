@@ -1,0 +1,72 @@
+[
+    {
+        "id": "get",
+        "dsID": "www.hc-system.com.RemoteMonitor",
+        "reqType": "query",
+        "packID": "1",
+        "queryAddr": ["version", "axisNum"]
+    },
+    {
+        "id":"getWorld",
+        "dsID":"www.hc-system.com.RemoteMonitor",
+        "reqType":"query",
+        "packID":"2",
+        "queryAddr":["world-0","world-1","world-2","world-3","world-4","world-5"]
+    },
+    {
+        "id":"getJ",
+        "dsID":"www.hc-system.com.RemoteMonitor",
+        "reqType":"query",
+        "packID":"3",
+        "queryAddr":["axis-0","axis-1","axis-2","axis-3","axis-4","axis-5"]
+    },
+    {
+        "id":"setStop",
+        "dsID":"www.hc-system.com.RemoteMonitor",
+        "reqType": "command",
+        "packID":"4",
+        "cmdData":["actionStop"]
+    },
+    {
+        "id":"setData800_0",
+        "dsID":"www.hc-system.com.RemoteMonitor",
+        "reqType": "command",
+        "packID":"5",
+        "cmdData":["rewriteData","800","0","0"]
+    },
+    {
+        "id":"setData800_1",
+        "dsID":"www.hc-system.com.RemoteMonitor",
+        "reqType": "command",
+        "packID":"6",
+        "cmdData":["rewriteData","800","1","0"]
+    },
+    {
+        "id":"getData_800",
+        "dsID":"www.hc-system.com.RemoteMonitor",
+        "reqType":"query",
+        "packID":"7",
+        "queryAddr":["Addr-800"]
+    },
+    {
+        "id":"setData807_0",
+        "dsID":"www.hc-system.com.RemoteMonitor",
+        "reqType": "command",
+        "packID":"8",
+        "cmdData":["rewriteData","807","0","0"]
+    },
+    {
+        "id":"setData807_1",
+        "dsID":"www.hc-system.com.RemoteMonitor",
+        "reqType": "command",
+        "packID":"9",
+        "cmdData":["rewriteData","807","1","0"]
+    },
+    {
+        "id":"getData_807",
+        "dsID":"www.hc-system.com.RemoteMonitor",
+        "reqType":"query",
+        "packID":"10",
+        "queryAddr":["Addr-807"]
+    },
+]
